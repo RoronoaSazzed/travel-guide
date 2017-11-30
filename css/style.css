@@ -1,0 +1,112 @@
+
+/* media query for responsiveness
+@media (max-width: 767px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1200px) {}
+*/
+
+.divPlace{
+    background-image: url(../images/797.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.backgroundContent{
+    background-color: #191D20;
+    opacity: .7;
+    margin-top: 3%;
+    padding: 0 3% 3% 3%;
+}
+
+.headerPlaces{
+    font-size: 70px;
+    color: #f1c40f;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.infoModify{
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    font-size: 40px;
+    color: white;
+}
+
+.infoOfPlaces{
+    text-shadow: 0 0 2px black;
+    color: #2ecc71;
+}
+
+.myBookings{
+    color: white;
+    background-color: #2ecc71;
+    padding: 10px 33px;
+    border-radius: 0%;
+}
+.myBookings:hover{
+    color: white;
+    background-color: #16a085;
+    padding: 10px 33px;
+    border-radius: 0%;
+}
+
+.changePassword{
+    color: white;
+    background-color: #f39c12;
+    padding: 10px 15px;
+    border-radius: 0%;
+}
+.changePassword:hover{
+    color: white;
+    background-color: #e67e22;
+    padding: 10px 15px;
+    border-radius: 0%;
+}
+
+
+.logOut{
+    color: white;
+    background-color: #3498db;
+    padding: 10px 51px;
+    border-radius: 0%;
+}
+.logOut:hover{
+    color: white;
+    background-color: #2980b9;
+    padding: 10px 51px;
+    border-radius: 0%;
+}
+
+
+.search{
+    color: white;
+    background-color: #e74c3c;
+    padding: 10px 43px;
+    border-radius: 0%;
+}
+
+.search:hover{
+    color: white;
+    background-color: #c0392b;
+    padding: 10px 43px;
+    border-radius: 0%;
+}
+
+.adminButton{
+    padding: 2%;
+}
+
+.divOne{
+    background-image: url(../images/2.png);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+

@@ -53,29 +53,36 @@
     <body>
         <!-- body part start -->
         <div class="container-fluid divOne">
-            <div class="row">
+            <div class="row contentAll">
                 <div class="col-md-2 col-sm-2"></div>
-                <div class="col-md-8 col-sm-8">
+                <div class="col-md-8 col-sm-8 col-xs-12">
                     <div class="text-center center-block adminButton animated wow fadeInDown" data-wow-delay="1.5s">
-                        <a href="#"><button type="button" class="btn myBookings">My bookings</button></a>
-                        <a href="#"><button type="button" class="btn changePassword">Change Password</button></a>
-                        <a href="#"><button type="button" class="btn logOut">Logout</button></a>
-
+                        <ul class="list-inline list-unstyled">
+                            <li>
+                                <a href="#"><button type="button" class="btn threeButtons myBookings">My bookings</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button type="button" class="btn threeButtons changePassword">Change Password</button></a>
+                            </li>
+                            <li>
+                                <a href="#"><button type="button" class="btn threeButtons logOut">Logout</button></a>
+                            </li>
+                        </ul>
                     </div>
-                        <form style="border : none;" action="details.php" method="post">
-                            <h3 class="wow animated fadeInLeft text-center center-block intelligent headerPlaces" data-wow-delay="1.5s">Welcome!!</h3>
-                            <br>
-                            <br>
-                            <label class="wow animated fadeInUp travelGuideHeader text-center center-block infoModify" data-wow-delay="1.5s">Enter <span class="infoOfPlaces">Place</span> Name</label>
-                            <br>
+                    <form style="border : none;" action="details.php" method="post">
+                        <h3 class="wow animated fadeInLeft text-center center-block intelligent headerPlaces" data-wow-delay="1.5s">Welcome!!</h3>
+                        <br>
+                        <br>
+                        <label class="wow animated fadeInUp travelGuideHeader text-center center-block infoModify" data-wow-delay="1.5s">Enter <span class="infoOfPlaces">Place</span> Name</label>
+                        <br>
 
-                            <input type="text" name="place" id="country" class="wow animated bounceIn form-control" data-wow-delay="1.5s" placeholder="Enter Place Name" />  
-                            <div id="countryList"></div><br>
-                            <br>
-                            <div class="text-center center-block">
-                                <button type="submit" class="btn search btn-lg wow animated fadeIn" data-wow-delay="3s" >Search</button>
-                            </div>
-                        </form>
+                        <input type="text" name="place" id="country" class="wow animated bounceIn form-control" data-wow-delay="1.5s" placeholder="Enter Place Name" />  
+                        <div id="countryList"></div><br>
+                        <br>
+                        <div class="text-center center-block">
+                            <button type="submit" class="btn search btn-lg wow animated fadeIn" data-wow-delay="3s" >Search</button>
+                        </div>
+                    </form>
                 </div>
                 <div class="col-md-2"></div>
             </div>

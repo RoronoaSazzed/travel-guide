@@ -97,6 +97,9 @@
     background-repeat: no-repeat;
 }
 
+.contentAll{
+    margin-top: 10%;
+}
 
 @media (min-width: 768px) {
     .infoModify {

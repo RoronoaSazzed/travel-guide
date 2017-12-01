@@ -5,6 +5,8 @@
 @media (min-width: 1200px) {}
 */
 
+
+
 .divPlace{
     background-image: url(../images/797.png);
     background-position: center;
@@ -12,12 +14,7 @@
     height: 100vh;
 }
 
-.backgroundContent{
-    background-color: #191D20;
-    opacity: .7;
-    margin-top: 3%;
-    padding: 0 3% 3% 3%;
-}
+
 
 .headerPlaces{
     font-size: 70px;
@@ -25,12 +22,7 @@
     font-family: 'Ubuntu Condensed', sans-serif;
 }
 
-.infoModify{
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px;
-    font-size: 40px;
-    color: white;
-}
+
 
 .infoOfPlaces{
     text-shadow: 0 0 2px black;
@@ -106,7 +98,57 @@
 }
 
 
+@media (min-width: 768px) {
+    .infoModify {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-size: 30px;
+        color: white;
+    }
+
+    .backgroundContent{
+        background-color: #191D20;
+        opacity: .7;
+        padding: 0 3% 3% 3%;
+        margin-top: 10%;
+    }
+}
 
 
 
+@media (max-width: 767px) {
+    .infoModify {
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-size: 15px;
+        color: white;
+    }
+    .headerPlaces {
+        font-size: 40px;
+        color: #f1c40f;
+        font-family: 'Ubuntu Condensed', sans-serif;
+    }
 
+    .backgroundContent{
+        background-color: #191D20;
+        opacity: .7;
+        padding: 0 3% 3% 3%;
+        margin-top: 30%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .infoModify{
+        font-family: 'Oswald', sans-serif;
+        letter-spacing: 1px;
+        font-size: 40px;
+        color: white;
+    }
+    .backgroundContent{
+        background-color: #191D20;
+        opacity: .7;
+        margin-top: 3%;
+        padding: 0 3% 3% 3%;
+    }
+}
